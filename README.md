@@ -12,9 +12,9 @@ There is the purpose of these scripts:
 When invoked without option, [jamendo-playlist][jpl] will download the [Jamendo database xml dump][jamxml] (approx. 15 Mb), extract it (approx. 150 Mb) and parse it to generate a playlist.
 
 The generated playlist is really huge (something like 350,000 tracks) and your must edit the default mpd configuration to be able to load it:
-
-In the file `/etc/mpd.conf`, locate the comment indicating a "Resource Limitations" section. Uncomment and set the value of `max_playlist_length` to something appropriate (e.g.: 400000).
-Restart mpd. You can then load the playlist from your favorite mpd client.
+ * In the file `/etc/mpd.conf`, locate the comment indicating a "Resource Limitations" section. Uncomment and set the value of `max_playlist_length` to something appropriate (e.g.: 400000).
+ * Restart mpd.
+ * You can then load the playlist from your favorite mpd client.
 
 ## Requirements
 The command line program `mpc` is used to communicate with mpd (to get current track url).
