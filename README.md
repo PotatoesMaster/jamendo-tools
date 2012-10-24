@@ -1,7 +1,7 @@
 There are the scripts I use to discover music on [Jamendo][jam], a website for musics under Creative Commons licenses.
 
 I like to play the whole Jamendo catalog in random order with [mpd][mpd] and just switch to the next song when I'm not interested in the current.
-When I find something exciting, I want to have more informations.
+When I find something exciting, I want to have more informations, and then I end up on the corresponding album/artist page at Jamendo.
 
 There is the purpose of these scripts:
  - [jamendo-playlist][jpl] builds a huge playlist listing all the track of Jamendo's catalog
@@ -20,9 +20,9 @@ Restart mpd. You can then load the playlist from your favorite mpd client.
 The command line program `mpc` is used to communicate with mpd (to get current track url).
 You would already have the others external tools involved (wget, gunzip and perl).
 
-[jpl]: http://github.com/PotatoesMaster/jamendo-tools/master/jamendo-playlist
-[jgm2]: http://github.com/PotatoesMaster/jamendo-tools/master/jamendo-mpd-get2
-[gojam]: http://github.com/PotatoesMaster/jamendo-tools/master/gojam
+[jpl]: http://github.com/PotatoesMaster/jamendo-tools/blob/master/jamendo-playlist
+[jgm2]: http://github.com/PotatoesMaster/jamendo-tools/blob/master/jamendo-mpd-get2
+[gojam]: http://github.com/PotatoesMaster/jamendo-tools/blob/master/gojam
 
 [jam]: http://www.jamendo.com/
 [jamxml]: http://developer.jamendo.com/fr/wiki/NewDatabaseDumps
